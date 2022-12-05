@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script>
+      let cnt=0;
+      function addTask(){
+        let text=document.getElementById("textbox").value;
+        if(text==''){
+          return;
+        }
+        document.getElementById('list').innerHTML+='<div id="'+cnt+'"><button class="del" id="'+cnt+'" onClick="Delete(this.id)"><img src="./trash.svg" alt="trash"></button><div class="task">'+text+'</div></div>';
+        cnt++;
+      }
+      function Delete(id){
+         document.getElementById(id).innerHTML='';
+      }
+   </script>
+</head>
+<body>
+    <div id="todo">
+            To Do List App
+    </div>
+    <div class="todolist">
+      <input type="text" value="" id="textbox"></input>
+      <button id="btn" onclick="addTask()">Add</button>
+    </div>
+    <div class="todolistbox" id="list">
+    </div>
+    <button id="linkedin" onclick="window.open('https://www.linkedin.com/in/panwar2001/','_blank');">
+      <b><h2>Connect With Me</h2></b>
+     <img src="./linkedin.svg" alt="linkedin" > 
+     </button>
+</body>
+</html>

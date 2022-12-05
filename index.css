@@ -1,0 +1,66 @@
+#todo{
+    background-image: linear-gradient( #fc5c7d, #6a82fb);
+    background-repeat: no-repeat;
+    height: 600px;
+    border-bottom-right-radius: 600px;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: -24px;
+    font-family: 'Brush-Script MT',cursive;
+    font-size: 50px;
+}
+.navbar{
+    background-image: linear-gradient(orange,pink);
+     margin-top: -10px;
+    margin-left: -10px; 
+    display: inline-block;
+}
+.nav{
+    justify-content: center;
+    float: left;
+}
+.todolist{
+    margin-left: 25%;
+    margin-top: -38%;
+}
+#textbox{
+    height: 50px;
+    width: 70%;
+    margin-left:-10%;
+    border-radius: 50px;
+    opacity: 80%;
+    font-size: 20px;
+    font-weight: bold;
+}
+#btn{
+    height:50px;
+    width: 100px;
+    border-radius: 17px;
+    font-size: 20px;
+}
+.todolistbox{
+    overflow-y: scroll;
+    width: 600px;
+    margin-left: 22%;
+    height: 450px;
+}
+.task{
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 10px;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 90%;
+}
+.del{
+ float: right;
+ margin-bottom:-2px;
+ width: 50px;
+}
+#linkedin{
+    width: 150px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -190px;
+    border-radius: 100px;
+}
